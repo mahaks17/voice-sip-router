@@ -1,0 +1,1012 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI SIP Router</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="background">
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+    <div class="grid-overlay"></div>
+</div>
+
+
+<main class="container">
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="header">
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                <span>◉</span>
+            </div>
+
+            <div class="brand-copy">
+                <h2>AI SIP Router</h2>
+                <span>BERT-POWERED INTELLIGENT ROUTING</span>
+            </div>
+
+        </div>
+
+
+        <div class="header-right">
+
+            <div class="tech-pill">
+                BERT + FastAPI
+            </div>
+
+            <div class="system-status">
+                <span class="status-dot"></span>
+                SYSTEM ONLINE
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section class="hero">
+
+        <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            AI-POWERED COMMUNICATION ROUTING
+        </div>
+
+        <h1>
+            Understand.
+            <span>Classify.</span>
+            Route.
+        </h1>
+
+        <p>
+            An intelligent voice and text routing system powered by
+            BERT that understands user intent and connects requests
+            to the correct SIP destination.
+        </p>
+
+
+        <div class="hero-stats">
+
+            <div class="hero-stat">
+                <strong>8</strong>
+                <span>Routing Intents</span>
+            </div>
+
+            <div class="hero-divider"></div>
+
+            <div class="hero-stat">
+                <strong>BERT</strong>
+                <span>Intent Engine</span>
+            </div>
+
+            <div class="hero-divider"></div>
+
+            <div class="hero-stat">
+                <strong>LIVE</strong>
+                <span>AI Routing</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         LIVE ROUTING WORKSPACE
+    ====================================================== -->
+
+    <section class="workspace">
+
+        <div class="workspace-heading">
+
+            <div>
+                <span class="section-number">01</span>
+
+                <div>
+                    <span class="eyebrow">LIVE ROUTING</span>
+                    <h2>Send a request</h2>
+                </div>
+            </div>
+
+
+            <div class="bert-status">
+                <span class="bert-pulse"></span>
+
+                <div>
+                    <strong>BERT</strong>
+                    <small>MODEL ACTIVE</small>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="routing-layout">
+
+
+            <!-- =============================================
+                 INPUT SIDE
+            ============================================== -->
+
+            <div class="input-panel">
+
+                <div class="panel-label">
+                    <span class="panel-icon">✦</span>
+
+                    <div>
+                        <strong>Request Input</strong>
+                        <span>Voice or natural language text</span>
+                    </div>
+                </div>
+
+
+                <label for="userText">
+                    What can we help you with?
+                </label>
+
+
+                <div class="input-wrapper">
+
+                    <textarea
+                        id="userText"
+                        placeholder="Example: I have a problem with my payment..."
+                    ></textarea>
+
+                    <div class="input-footer">
+
+                        <span>
+                            Natural language supported
+                        </span>
+
+                        <span class="input-ai">
+                            AI READY
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!--
+                    The microphone button is created
+                    automatically by script.js here.
+                -->
+
+
+                <div class="or-divider">
+                    <span></span>
+                    <small>OR USE TEXT</small>
+                    <span></span>
+                </div>
+
+
+                <button id="routeButton">
+
+                    <span class="button-icon">
+                        ✦
+                    </span>
+
+                    <span>
+                        Analyze & Route
+                    </span>
+
+                    <span class="button-arrow">
+                        →
+                    </span>
+
+                </button>
+
+
+                <!-- ANALYSIS -->
+
+                <div
+                    id="analysis"
+                    class="analysis hidden"
+                >
+
+                    <div class="analysis-glow"></div>
+
+                    <div class="loader"></div>
+
+
+                    <div class="analysis-copy">
+
+                        <span class="eyebrow">
+                            AI PROCESSING
+                        </span>
+
+                        <strong id="analysisText">
+                            Analyzing request...
+                        </strong>
+
+                        <small>
+                            BERT is understanding your request
+                        </small>
+
+                    </div>
+
+
+                    <div class="analysis-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                </div>
+
+
+                <!-- ERROR -->
+
+                <div
+                    id="error"
+                    class="error hidden"
+                ></div>
+
+            </div>
+
+
+
+            <!-- =============================================
+                 INFORMATION SIDE
+            ============================================== -->
+
+            <div class="system-panel">
+
+                <div class="system-panel-header">
+
+                    <span class="eyebrow">
+                        INTELLIGENCE ENGINE
+                    </span>
+
+                    <h3>
+                        How your request is processed
+                    </h3>
+
+                </div>
+
+
+                <div class="mini-process">
+
+                    <div class="mini-step">
+
+                        <div class="mini-icon">
+                            01
+                        </div>
+
+                        <div>
+                            <strong>
+                                Capture
+                            </strong>
+
+                            <span>
+                                Voice or text input
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mini-line"></div>
+
+
+                    <div class="mini-step">
+
+                        <div class="mini-icon">
+                            02
+                        </div>
+
+                        <div>
+                            <strong>
+                                Understand
+                            </strong>
+
+                            <span>
+                                BERT detects intent
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mini-line"></div>
+
+
+                    <div class="mini-step">
+
+                        <div class="mini-icon">
+                            03
+                        </div>
+
+                        <div>
+                            <strong>
+                                Route
+                            </strong>
+
+                            <span>
+                                SIP endpoint selected
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="system-info-card">
+
+                    <div class="system-info-icon">
+                        AI
+                    </div>
+
+                    <div>
+                        <strong>
+                            Intent Classification
+                        </strong>
+
+                        <p>
+                            Your request is classified into one
+                            of eight available routing departments.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ROUTING RESULT
+    ====================================================== -->
+
+    <section
+        id="result"
+        class="result-section hidden"
+    >
+
+        <div class="result-heading">
+
+            <div>
+
+                <span class="section-number">
+                    02
+                </span>
+
+                <div>
+                    <span class="eyebrow">
+                        AI ROUTING RESULT
+                    </span>
+
+                    <h2>
+                        Request successfully classified
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="success-badge">
+                <span>✓</span>
+                ROUTING COMPLETE
+            </div>
+
+        </div>
+
+
+
+        <div class="result-grid">
+
+
+            <!-- INTENT -->
+
+            <div class="result-card intent-result">
+
+                <div class="result-icon">
+                    🧠
+                </div>
+
+                <span class="metric-label">
+                    DETECTED INTENT
+                </span>
+
+                <strong id="intent">
+                    —
+                </strong>
+
+                <span class="metric-description">
+                    Classified by BERT
+                </span>
+
+            </div>
+
+
+
+            <!-- CONFIDENCE -->
+
+            <div class="result-card confidence-result">
+
+                <div class="result-icon">
+                    ◫
+                </div>
+
+                <span class="metric-label">
+                    MODEL CONFIDENCE
+                </span>
+
+
+                <div class="confidence-row">
+
+                    <strong id="confidence">
+                        —
+                    </strong>
+
+                    <span id="confidenceText">
+                        —
+                    </span>
+
+                </div>
+
+
+                <div class="confidence-track">
+
+                    <div
+                        id="confidenceBar"
+                        class="confidence-bar"
+                    ></div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SIP DESTINATION -->
+
+            <div class="result-card sip-result">
+
+                <div class="result-icon">
+                    ☎
+                </div>
+
+                <span class="metric-label">
+                    SIP DESTINATION
+                </span>
+
+                <strong id="sipEndpoint">
+                    —
+                </strong>
+
+                <span class="metric-description">
+                    Selected routing endpoint
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         DEPARTMENTS
+    ====================================================== -->
+
+    <section class="departments">
+
+        <div class="section-heading">
+
+            <div class="heading-left">
+
+                <span class="section-number">
+                    03
+                </span>
+
+                <div>
+
+                    <span class="eyebrow">
+                        ROUTING NETWORK
+                    </span>
+
+                    <h2>
+                        Available departments
+                    </h2>
+
+                    <p>
+                        BERT automatically identifies the correct
+                        destination based on the user's intent.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <span class="department-count">
+                8 INTENTS
+            </span>
+
+        </div>
+
+
+
+        <div class="department-grid">
+
+
+            <div class="department">
+
+                <div class="department-top">
+
+                    <span class="department-icon">
+                        ◈
+                    </span>
+
+                    <span class="route-dot"></span>
+
+                </div>
+
+                <strong>Sales</strong>
+
+                <small>
+                    Products & purchases
+                </small>
+
+                <span class="department-route">
+                    SALES
+                </span>
+
+            </div>
+
+
+
+            <div class="department">
+
+                <div class="department-top">
+
+                    <span class="department-icon">
+                        ◇
+                    </span>
+
+                    <span class="route-dot"></span>
+
+                </div>
+
+                <strong>Billing</strong>
+
+                <small>
+                    Payments & invoices
+                </small>
+
+                <span class="department-route">
+                    BILLING
+                </span>
+
+            </div>
+
+
+
+            <div class="department">
+
+                <div class="department-top">
+
+                    <span class="department-icon">
+                        ◎
+                    </span>
+
+                    <span class="route-dot"></span>
+
+                </div>
+
+                <strong>Support</strong>
+
+                <small>
+                    Customer assistance
+                </small>
+
+                <span class="department-route">
+                    SUPPORT
+                </span>
+
+            </div>
+
+
+
+            <div class="department">
+
+                <div class="department-top">
+
+                    <span class="department-icon">
+                        ⌘
+                    </span>
+
+                    <span class="route-dot"></span>
+
+                </div>
+
+                <strong>Technical</strong>
+
+                <small>
+                    Technical issues
+                </small>
+
+                <span class="department-route">
+                    TECHNICAL
+                </span>
+
+            </div>
+
+
+
+            <div class="department">
+
+                <div class="department-top">
+
+                    <span class="department-icon">
+                        ○
+                    </span>
+
+                    <span class="route-dot"></span>
+
+                </div>
+
+                <strong>HR</strong>
+
+                <small>
+                    Human resources
+                </small>
+
+                <span class="department-route">
+                    HR
+                </span>
+
+            </div>
+
+
+
+            <div class="department">
+
+                <div class="department-top">
+
+                    <span class="department-icon">
+                        △
+                    </span>
+
+                    <span class="route-dot"></span>
+
+                </div>
+
+                <strong>Operations</strong>
+
+                <small>
+                    Business operations
+                </small>
+
+                <span class="department-route">
+                    OPERATIONS
+                </span>
+
+            </div>
+
+
+
+            <div class="department emergency">
+
+                <div class="department-top">
+
+                    <span class="department-icon">
+                        !
+                    </span>
+
+                    <span class="route-dot emergency-dot"></span>
+
+                </div>
+
+                <strong>Emergency</strong>
+
+                <small>
+                    Priority assistance
+                </small>
+
+                <span class="department-route">
+                    EMERGENCY
+                </span>
+
+            </div>
+
+
+
+            <div class="department">
+
+                <div class="department-top">
+
+                    <span class="department-icon">
+                        ?
+                    </span>
+
+                    <span class="route-dot"></span>
+
+                </div>
+
+                <strong>General</strong>
+
+                <small>
+                    General enquiries
+                </small>
+
+                <span class="department-route">
+                    GENERAL
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         LOWER DASHBOARD
+    ====================================================== -->
+
+    <section class="dashboard-bottom">
+
+
+        <!-- PIPELINE -->
+
+        <div class="pipeline">
+
+            <div class="bottom-card-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        PROCESSING PIPELINE
+                    </span>
+
+                    <h2>
+                        AI routing flow
+                    </h2>
+
+                </div>
+
+
+                <div class="live-indicator">
+                    LIVE
+                </div>
+
+            </div>
+
+
+
+            <div class="pipeline-track">
+
+
+                <div class="pipeline-step active">
+
+                    <div class="pipeline-number">
+                        01
+                    </div>
+
+                    <div class="pipeline-node">
+                        🎙
+                    </div>
+
+                    <div class="pipeline-copy">
+                        <strong>
+                            User Input
+                        </strong>
+
+                        <span>
+                            Voice or text
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="pipeline-connector">
+                    <span></span>
+                </div>
+
+
+                <div class="pipeline-step">
+
+                    <div class="pipeline-number">
+                        02
+                    </div>
+
+                    <div class="pipeline-node">
+                        🧠
+                    </div>
+
+                    <div class="pipeline-copy">
+                        <strong>
+                            BERT
+                        </strong>
+
+                        <span>
+                            Intent classification
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="pipeline-connector">
+                    <span></span>
+                </div>
+
+
+                <div class="pipeline-step">
+
+                    <div class="pipeline-number">
+                        03
+                    </div>
+
+                    <div class="pipeline-node">
+                        ⇄
+                    </div>
+
+                    <div class="pipeline-copy">
+                        <strong>
+                            Router
+                        </strong>
+
+                        <span>
+                            Endpoint selection
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="pipeline-connector">
+                    <span></span>
+                </div>
+
+
+                <div class="pipeline-step">
+
+                    <div class="pipeline-number">
+                        04
+                    </div>
+
+                    <div class="pipeline-node">
+                        ☎
+                    </div>
+
+                    <div class="pipeline-copy">
+                        <strong>
+                            SIP
+                        </strong>
+
+                        <span>
+                            Final destination
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- HISTORY -->
+
+        <div class="history">
+
+            <div class="bottom-card-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        RECENT ACTIVITY
+                    </span>
+
+                    <h2>
+                        Routing history
+                    </h2>
+
+                </div>
+
+
+                <button
+                    id="clearHistory"
+                    class="clear-button"
+                >
+                    Clear
+                </button>
+
+            </div>
+
+
+            <div
+                id="historyList"
+                class="history-list"
+            >
+
+                <div class="empty-history">
+
+                    <div class="empty-icon">
+                        ◌
+                    </div>
+
+                    <strong>
+                        No routing activity
+                    </strong>
+
+                    <span>
+                        Your recent requests will appear here.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <div class="footer-brand">
+            <span>◉</span>
+            AI SIP Router
+        </div>
+
+
+        <div class="footer-stack">
+            BERT
+            <span>•</span>
+            FastAPI
+            <span>•</span>
+            SIP
+            <span>•</span>
+            Voice Recognition
+        </div>
+
+    </footer>
+
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+

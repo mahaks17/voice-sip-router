@@ -1,0 +1,41 @@
+text,intent
+I would like to discuss a purchase,SALES
+Please provide information about purchasing,SALES
+I want to speak to someone about purchasing a product,SALES
+I would like information about your products,SALES
+I would like to buy one of your products,SALES
+I want to discuss an unexpected charge,BILLING
+I have a question about my bill,BILLING
+My payment is showing as pending,BILLING
+Why is my bill higher than expected,BILLING
+My payment appears to have failed,BILLING
+My program is frozen,TECHNICAL
+My program is showing an error,TECHNICAL
+I am unable to use the application,TECHNICAL
+Please connect me to technical support,TECHNICAL
+I cannot use the software properly,TECHNICAL
+Please help me with my account problem,SUPPORT
+Can someone help me with my request,SUPPORT
+Can someone guide me through this issue,SUPPORT
+My account needs some assistance,SUPPORT
+I need help resolving an issue,SUPPORT
+Can someone from human resources contact me,HR
+I have a question about my employment,HR
+I need assistance from the HR team,HR
+Who should I contact about an employee issue,HR
+Please let me speak with an HR representative,HR
+Please connect my call to operations,OPERATIONS
+Who can help with this operational problem,OPERATIONS
+I need to contact the operations team,OPERATIONS
+I need to reach the operations department,OPERATIONS
+I have a question for the operations department,OPERATIONS
+I need urgent help with a serious situation,EMERGENCY
+Please get emergency assistance,EMERGENCY
+Please transfer me to emergency services,EMERGENCY
+Please connect me to emergency services,EMERGENCY
+I need help without delay,EMERGENCY
+I need to reach the right person,GENERAL
+Can someone point me in the right direction,GENERAL
+I am unsure which team can help me,GENERAL
+I have something I would like to ask,GENERAL
+Who should I talk to about this,GENERAL

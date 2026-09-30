@@ -1,0 +1,33 @@
+text,intent
+Connect me with someone who handles sales,SALES
+How much does your product cost,SALES
+I need help choosing a product to buy,SALES
+I am interested in getting a new product,SALES
+There is a problem with my payment,BILLING
+My invoice contains an incorrect charge,BILLING
+Why was I charged twice,BILLING
+I was charged twice for the same service,BILLING
+I am having a technical problem,TECHNICAL
+The application keeps crashing,TECHNICAL
+I need help troubleshooting my system,TECHNICAL
+I need technical assistance,TECHNICAL
+I have an issue with my service,SUPPORT
+I need assistance with my account,SUPPORT
+I want to contact customer support,SUPPORT
+Can a support agent help me,SUPPORT
+I need information about company policies,HR
+I have an employment-related question,HR
+I have a workplace-related concern,HR
+I need help with my employment information,HR
+I need to discuss an operational matter,OPERATIONS
+Can operations assist with my request,OPERATIONS
+I have an issue related to operations,OPERATIONS
+Please connect me to operations,OPERATIONS
+This cannot wait,EMERGENCY
+I need immediate assistance,EMERGENCY
+This is a critical situation,EMERGENCY
+This is an emergency,EMERGENCY
+I do not know which department handles this,GENERAL
+I need some assistance but I am not sure where to start,GENERAL
+Please direct my request to the appropriate department,GENERAL
+Please help me find the right contact,GENERAL

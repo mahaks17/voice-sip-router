@@ -1,0 +1,169 @@
+text,intent
+How can I purchase your service,SALES
+Who can help me purchase a product,SALES
+I want to place an order,SALES
+I want to know the cost before ordering,SALES
+I want to compare your available plans,SALES
+Can someone explain your available packages,SALES
+I want to know about your pricing plans,SALES
+I need a quotation for your service,SALES
+Can you tell me what products you offer,SALES
+I want to discuss your product options,SALES
+Please connect me with a sales representative,SALES
+Can sales explain the different packages,SALES
+I have questions about buying your product,SALES
+Can I get a sales consultation,SALES
+Can someone from sales call me,SALES
+I would like to discuss a new purchase,SALES
+Can I talk to your sales representative,SALES
+I am looking for information before buying,SALES
+I am interested in your premium plan,SALES
+I am interested in buying your service,SALES
+I need details about your pricing,SALES
+I want to check my payment status,BILLING
+Can you correct my billing information,BILLING
+I was charged for something I did not purchase,BILLING
+Can you explain this charge on my bill,BILLING
+Can billing help me with this payment issue,BILLING
+Please connect me to billing,BILLING
+I need to resolve an invoice problem,BILLING
+I want to speak with the billing department,BILLING
+I need someone to review my bill,BILLING
+I do not understand a charge on my account,BILLING
+I need a copy of my invoice,BILLING
+I need assistance with billing,BILLING
+There is a billing discrepancy on my account,BILLING
+There is an error on my invoice,BILLING
+I have an issue with an invoice,BILLING
+I was charged the wrong amount,BILLING
+I need help with a payment,BILLING
+I need help understanding my invoice,BILLING
+My payment did not go through,BILLING
+Can someone check my invoice,BILLING
+Can you help me with my payment details,BILLING
+I cannot get the software to start,TECHNICAL
+Something is technically wrong with my system,TECHNICAL
+There is a technical issue with the service,TECHNICAL
+The software is behaving unexpectedly,TECHNICAL
+My software is not working,TECHNICAL
+My application suddenly stopped working,TECHNICAL
+The application is not responding,TECHNICAL
+I need help fixing a software problem,TECHNICAL
+I need someone to fix a technical problem,TECHNICAL
+Can you help resolve my software issue,TECHNICAL
+The system has stopped responding,TECHNICAL
+The software crashes whenever I open it,TECHNICAL
+Can technical support help me,TECHNICAL
+The system keeps giving me errors,TECHNICAL
+I cannot access the application,TECHNICAL
+The service is malfunctioning,TECHNICAL
+My system stopped working,TECHNICAL
+My application has a serious error,TECHNICAL
+My application will not open,TECHNICAL
+I am experiencing a system failure,TECHNICAL
+There is an error in my system,TECHNICAL
+Please have customer support contact me,SUPPORT
+I need guidance regarding my service,SUPPORT
+I need help with my account,SUPPORT
+I need customer service,SUPPORT
+I need help using the service,SUPPORT
+I would like to speak with support,SUPPORT
+Who can help me with my account,SUPPORT
+Please connect me to customer support,SUPPORT
+Can you help me solve a service problem,SUPPORT
+I have a customer service question,SUPPORT
+I need general customer assistance,SUPPORT
+I have a question about my service,SUPPORT
+I have a problem and need assistance,SUPPORT
+I need someone to assist me,SUPPORT
+Can I speak to a support representative,SUPPORT
+I would like assistance with my request,SUPPORT
+Can you connect me with an agent,SUPPORT
+I need assistance from your support team,SUPPORT
+I want help with a customer service issue,SUPPORT
+Can someone assist me with my service,SUPPORT
+I need customer assistance,SUPPORT
+Can HR assist me with this matter,HR
+Can you connect me to human resources,HR
+I need help regarding leave policies,HR
+I want to discuss a workplace issue,HR
+I need information about employee leave,HR
+I need to report an employee concern,HR
+I need help with an employee matter,HR
+Can someone explain the leave process,HR
+I need information about employee benefits,HR
+I have a question about workplace policies,HR
+Can HR help me with an employee issue,HR
+I want to know more about company benefits,HR
+Can I contact the HR department,HR
+I need to speak with human resources,HR
+I want to discuss an issue with HR,HR
+I have a question about company leave,HR
+I need assistance with an HR matter,HR
+I want to ask HR about benefits,HR
+Can someone from HR assist me,HR
+Please connect me with HR,HR
+I want to talk to human resources,HR
+I need support from operations,OPERATIONS
+Can someone handle this operational request,OPERATIONS
+Please transfer me to operations,OPERATIONS
+There is an issue with our operational workflow,OPERATIONS
+I need an operations specialist,OPERATIONS
+I need information from the operations team,OPERATIONS
+There is a problem with our operations,OPERATIONS
+Can someone from operations help me,OPERATIONS
+I have an operational issue,OPERATIONS
+Can the operations team look into this,OPERATIONS
+I need assistance from the operations department,OPERATIONS
+I need help with an operational process,OPERATIONS
+Please have someone from operations assist me,OPERATIONS
+Please let me speak to someone in operations,OPERATIONS
+Can operations help resolve this issue,OPERATIONS
+I want to speak with operations,OPERATIONS
+Can I speak to an operations representative,OPERATIONS
+Who handles operational requests,OPERATIONS
+I need assistance with an operations task,OPERATIONS
+I want to contact the operations department,OPERATIONS
+I would like to discuss operations,OPERATIONS
+Can you provide emergency assistance,EMERGENCY
+I need immediate support,EMERGENCY
+I need emergency support,EMERGENCY
+This is an urgent matter,EMERGENCY
+Please get someone to help immediately,EMERGENCY
+This situation is extremely urgent,EMERGENCY
+I require emergency assistance,EMERGENCY
+Please help me immediately,EMERGENCY
+There is an emergency situation,EMERGENCY
+I need someone immediately,EMERGENCY
+Please handle this as an emergency,EMERGENCY
+Something urgent has happened,EMERGENCY
+Please connect me to someone urgently,EMERGENCY
+Connect me to emergency support now,EMERGENCY
+There is a serious emergency,EMERGENCY
+I need urgent assistance,EMERGENCY
+I need help right now,EMERGENCY
+Please treat this as urgent,EMERGENCY
+Can you connect me to emergency support,EMERGENCY
+This situation requires immediate attention,EMERGENCY
+I require immediate attention,EMERGENCY
+I need general information,GENERAL
+Can someone help me find the right department,GENERAL
+Can someone answer my question,GENERAL
+Can you help me identify the right department,GENERAL
+Can you direct me to the right person,GENERAL
+I am looking for some information,GENERAL
+Please connect me with someone,GENERAL
+Can someone guide me to the correct team,GENERAL
+I have a question,GENERAL
+I have a question but I do not know who handles it,GENERAL
+I have a general question,GENERAL
+I need information about your company,GENERAL
+I need some information,GENERAL
+I would like to talk to someone about a question,GENERAL
+Where should I direct my question,GENERAL
+I am not sure who I need to speak with,GENERAL
+Who can answer my question,GENERAL
+Can you help me find the appropriate department,GENERAL
+I need to speak with someone,GENERAL
+I would like some information,GENERAL
+Can you tell me who I should contact,GENERAL
